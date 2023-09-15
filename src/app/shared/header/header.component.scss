@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+:root {
+    --main-bg-color: #2874f0;
+    --main-font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+header {
+    background-color: #2874f0;
+}
+
+.Navigator {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo a {
+    color: white;
+    font-size: .7em;
+}
+
+.logo span {
+    color: #ffe500;
+}
+
+.search {
+    display: flex;
+    justify-content: end;
+    width: 30vw;
+    margin-right: auto;
+    align-items: center;
+    color: rgb(157, 154, 154);
+    position: relative;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.searchlogo {
+    position: absolute;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.login button {
+    border-radius: 0;
+    border: 0;
+    padding: 0.375rem 2.75rem;
+}
+
+.seller {
+    display: flex;
+    align-items: center;
+}
+
+.seller a {
+    color: white;
+    font-weight: 500;
+    padding: 0px 0px 0px 20px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 10%;
+    justify-content: center;
+}
+
+.bold {
+    font-weight: 500 !important;
+}
+
+input {
+    font-size: 12px;
+    height: 30px;
+    border-radius: 0;
+    padding-left: 8px;
+}
